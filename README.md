@@ -2,16 +2,16 @@
 
 Middleware for [express] to authenticate against [OAuth2] providers.
 
-![build status](http://img.shields.io/travis/izaakschroeder/s3-streams.svg?style=flat)
-![coverage](http://img.shields.io/coveralls/izaakschroeder/s3-streams.svg?style=flat)
-![license](http://img.shields.io/npm/l/s3-streams.svg?style=flat)
-![version](http://img.shields.io/npm/v/s3-streams.svg?style=flat)
-![downloads](http://img.shields.io/npm/dm/s3-streams.svg?style=flat)
+![build status](http://img.shields.io/travis/izaakschroeder/express-authentication-oauth2.svg?branch=master&style=flat)
+![coverage](http://img.shields.io/coveralls/izaakschroeder/express-authentication-oauth2.svg?branch=master&style=flat)
+![license](http://img.shields.io/npm/l/express-authentication-oauth2.svg?style=flat)
+![version](http://img.shields.io/npm/v/express-authentication-oauth2.svg?style=flat)
+![downloads](http://img.shields.io/npm/dm/express-authentication-oauth2.svg?style=flat)
 
 Inspired by [simple-oauth2].
 
 ```javascript
-
+var oauth2 = require('express-authentication-oauth2');
 ```
 
 [express]: http://expressjs.com/
