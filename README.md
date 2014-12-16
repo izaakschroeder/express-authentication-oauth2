@@ -1,4 +1,4 @@
-#
+# express-authentication-oauth2
 
 Middleware for [express] to authenticate against [OAuth2] providers.
 
@@ -15,5 +15,5 @@ Inspired by [simple-oauth2].
 ```
 
 [express]: http://expressjs.com/
-[OAuth 2]: http://oauth.net/2/
+[OAuth2]: http://oauth.net/2/
 [simple-oauth2]: https://github.com/andreareginato/simple-oauth2/

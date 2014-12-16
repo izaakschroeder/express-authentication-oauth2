@@ -1,5 +1,5 @@
 {
-	"name": "express-authentication-oauth2-client",
+	"name": "express-authentication-oauth2",
 	"version": "0.1.0",
 	"description": "Authenticate against other oauth2 providers.",
 	"author": "Izaak Schroeder <izaak.schroeder@gmail.com>",
@@ -18,7 +18,9 @@
 		"coverage": "istanbul check-coverage --statement 100 --branch 100 --function 100"
 	},
 	"dependencies": {
-
+		"lodash": "^2.4.1",
+		"superagent": "^0.21.0",
+		"jwt-simple": "^0.2.0"
 	},
 	"devDependencies": {
 		"eslint": "*",
@@ -31,6 +33,6 @@
 		"sinon-chai": "*"
 	},
 	"peerDependencies": {
-		"express-authentication": "^0.1.0"
+		"express-authentication": "^0.2.0"
 	}
 }
