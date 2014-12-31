@@ -1,4 +1,6 @@
 
+'use strict';
+
 var path = require('path'),
 	express = require('express'),
 	authentication = require('express-authentication'),
@@ -14,7 +16,7 @@ var app = express(),
 	});
 
 
-app.get('/', auth.for(facebook).required(), function(req, res) {
+app.get('/', auth.for(facebook).required(), function route(req, res) {
 	var result = auth.for(facebook).of(req);
 	res.status(200).send(result);
 });

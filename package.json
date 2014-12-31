@@ -30,7 +30,8 @@
 		"chai": "*",
 		"chai-things": "*",
 		"sinon": "*",
-		"sinon-chai": "*"
+		"sinon-chai": "*",
+		"supertest": "*"
 	},
 	"peerDependencies": {
 		"express-authentication": "^0.2.0"

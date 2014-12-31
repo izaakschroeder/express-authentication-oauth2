@@ -17,3 +17,5 @@ var oauth2 = require('express-authentication-oauth2');
 [express]: http://expressjs.com/
 [OAuth2]: http://oauth.net/2/
 [simple-oauth2]: https://github.com/andreareginato/simple-oauth2/
+[extra1]: https://apigility.org/documentation/auth/authentication-oauth2
+[extra2]: https://auth0.com/blog/2014/01/27/ten-things-you-should-know-about-tokens-and-cookies/
