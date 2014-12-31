@@ -1,6 +1,6 @@
 {
 	"name": "express-authentication-oauth2",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Authenticate against other oauth2 providers.",
 	"author": "Izaak Schroeder <izaak.schroeder@gmail.com>",
 	"keywords": [ "express-authentication", "express", "oauth", "oauth2" ],
